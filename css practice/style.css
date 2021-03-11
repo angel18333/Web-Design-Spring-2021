@@ -1,0 +1,26 @@
+h1 {
+    color:darkred;
+    background-color: burlywood;
+    font-size: 30px;
+}
+
+ul {
+    color: rgb(129, 0, 0);
+    text-align: center;
+}
+
+p {
+    background-color: #deb887;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+man.png {
+    align-items: center;
+}
+
+/*
+h1 {
+    color: lightblue;
+    background-color: red;
+}
