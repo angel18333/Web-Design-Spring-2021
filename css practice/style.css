@@ -1,7 +1,8 @@
 h1 {
     color:darkred;
     background-color: burlywood;
-    font-size: 30px;
+    font-size: 30px;  
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 ul {
@@ -15,12 +16,38 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-man.png {
-    align-items: center;
-}
-
 /*
 h1 {
     color: lightblue;
     background-color: red;
+}
+*/
+
+
+/* THE FOLLOWING IS FOR SUPERHERO ACTIVITY */
+#superherolist {
+    text-align: right;
+    background-color: darksalmon;
+}
+#firstlist {
+    background-color: indianred;
+}
+#secondlist {
+    background-color: rgb(184, 0, 0);
+}
+#thirdlist {
+    background-color: black;
+}
+#firstlist, #secondlist, #thirdlist {
+    font-size: 20px;
+}
+#activities {
+    color: black;
+    background-color: palevioletred;
+}
+.quarantine {
+    background-color: powderblue;
+}
+body {
+    background-image: url("img/watercolor.jpg");
 }
