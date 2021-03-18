@@ -3,30 +3,39 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+
+        <!-- Link to reference CSS file -->
+        <link href="style.css" rel="stylesheet" text="text/css">
+
+        <!-- Change of webpage title-->
         <title> Me </title>
+
+        <!-- library of fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Start coding from here -->
 
         <!-- 1. User Link Section -->
-        <ul>
+        <ul id="user-links">
             <!-- User Image -->
-            <li>
+            <li class="user-links-li">
                 <a href="index.html">
                    <img src="images/user.png" width="28" height="28"> 
-                   <p>Angel</p>
+                   <p class="top-left-items">Angel</p>
                 </a>
             </li>
             <!-- Cash Image -->
-            <li>
+            <li class="user-links-li">
                     <img src="images/cash.png" width="28" height="28">
-                    <p>$100</p>
+                    <p class="top-left-items">$100</p>
             </li>
             <!-- Cart Image -->
-            <li>
+            <li class="user-links-li">
                 <a href="cart.html">
                    <img src="images/cart.jpg" width="28" height="28"> 
-                   <p>cart(0)</p>
+                   <p class="top-left-items">cart(0)</p>
                 </a>
             </li>
         </ul>
@@ -43,8 +52,9 @@
         <!-- 3. Navigation Bar   -->
     <nav>
         <hr width="50%" /> <!-- This adds a line-->
+        <!-- CHANGE CURRENT BASED ON THE-->
         <a href="index.html"> Home </a>
-        <a href="about.html"> About </a>
+        <a class="current" href="about.html"> About </a>
         <a href="products.html"> Products </a>
         <a href="contact.html"> Contact </a>
     </nav>
@@ -54,7 +64,7 @@
 
         <!-- 4. Main Body -->
         <main>
-            <figure id="dog">
+            <figure id="imagemain">
               <img src="images/cat.jpg" alt = "Picture of cat" />
             </figure>
             
@@ -68,6 +78,16 @@
         </main>
 
         <!-- 5. Footer -->
+        <footer>
+            <hr>
+            <p>
+                Intro To Web Design 2021 © Cervantes-Rocha <br>
+                <strong> Disclaimer: </strong> The information in this webpage is fictitious. <br>
+                It is used for academic purposes only.
+            </p>
+            <img src="images/hm.png" width="120" height="80">
+        </footer>
+
         <!-- Code above from here -->
     </body>
 </html>

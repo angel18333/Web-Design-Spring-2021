@@ -1,0 +1,64 @@
+body {
+    background-color: slategray; 
+    color: black
+}
+
+/* Makes everything to the center
+    Except for the user link section*/
+
+header, nav, main, footer {
+    text-align: center;
+}
+
+/* 1. Handling User Links */
+#user-links {
+    /* DON'T FORGET TO DELETE */
+    /* border: 1px solid; */
+
+    /* takes off the bullet points */
+    list-style-type: none;
+
+    /* Moves list to the right */
+    text-align: right;
+
+    /* Changes font to Roboto */
+    font-family: 'Merriweather', serif;
+
+    /* Adds space between logo and user links*/
+    margin-bottom: 50px;
+}
+.top-left-items {
+    /* puts logo and link name on the same line */ 
+    display: inline;
+    position: relative;
+    left: 5px;
+    bottom: 6px;
+
+
+    color: white;
+}
+.user-links-li {
+    /* Puts all list in one line */
+    display: inline;
+
+    /* fix spacing */
+    margin-right: 30px;
+}
+
+/* Remove underline of all anchor tags */
+a {
+    text-decoration: none;
+}
+
+/* 2. Handling navigation bar */
+
+nav a {
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+/* Styling  changes if you hover over nav tabs */
+nav a:hover {
+    color: red;
+    border-bottom: 2px red solid;
+}
